@@ -8,3 +8,5 @@ git log 可以查看提交的历史，以确定要回退到哪个版本
 HEAD指向的版本就是当前版本，使用git reset --hard commit_id可以在不同版本间穿梭。
 HEAD^表示上一个版本，HEAD^^表示上上一个版本，HEAD~100表示往上100个版本。
 git reflog 可以查看命令历史，以确定回到哪个版本
+
+test
