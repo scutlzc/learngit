@@ -18,3 +18,9 @@ git checkout 撤销对工作区的更改，将暂存区最新的版本转移到�
 git remote add orgin git https://github.com/scutlzc/learngit.git 将已有的本地仓库与远程仓库关联起来。
 git push -u origin master 将master分支推送到远程库。
 当远程库为空，加上-u参数，Git不但会把本地master分支内容推送到远程新的master分支，还会把本地master分支和远程master分支关联起来。
+之后可以用git push origin master 推送最新修改。
+git clone git@github.com:scutlzc/repositoryname.git将远程库克隆出一个本地库。
+
+git branch branchname 创建一个分支，git checkout branchname 切换到这个分支
+可以用git checkout -b branchname 创建新分支的同时，切换到这个分支上。
+git branch 查看当前分支，会列出所有分支，当前分支前标有*号。
