@@ -1,4 +1,4 @@
-git init 初始化仓库
+git init 初始化仓库，新建了一个.git文件。
 git add<file> 添加文件到Git仓库，可以反复多次使用，添加多个文件
 git commit -m<message>
 git status 查看工作区的状态
