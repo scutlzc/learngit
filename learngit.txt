@@ -27,3 +27,8 @@ git branch 查看当前分支，会列出所有分支，当前分支前标有*�
 git merge branchname 合并某个分支到当前分支上
 git branch -d branchname 删除分支
 也可以使用git switch -c branchname 来创建并切换到分支
+
+分支冲突时，手动对不同分支进行修改，再进行提交，合并完成。
+git log --graph 查看分支合并图
+
+在合并分支时，加上--no-ff参数可以用普通模式合并，合并后的历史有分支，能看出曾经做过合并，而fast forward合并就看不来曾经做过合并。
