@@ -24,3 +24,6 @@ git clone git@github.com:scutlzc/repositoryname.git将远程库克隆出一个�
 git branch branchname 创建一个分支，git checkout branchname 切换到这个分支
 可以用git checkout -b branchname 创建新分支的同时，切换到这个分支上。
 git branch 查看当前分支，会列出所有分支，当前分支前标有*号。
+git merge branchname 合并某个分支到当前分支上
+git branch -d branchname 删除分支
+也可以使用git switch -c branchname 来创建并切换到分支
