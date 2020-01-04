@@ -4,4 +4,8 @@ Git test tomorrow
 test1
 
 create a new branch
-2
+<<<<<<< HEAD
+3
+=======
+3
+>>>>>>> dev
