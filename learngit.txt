@@ -14,3 +14,7 @@ git reflog 可以查看命令历史，以确定回到哪个版本
 git add将文件添加到暂存区，git commit将暂存区中内容提交到当前分支。
 git diff 查看工作区和暂存区之间的差异，git diff -cached 查看暂存区和仓库的差异。git diff HEAD --filename 查看工作区和版本库最新版本的区别。
 git checkout 撤销对工作区的更改，将暂存区最新的版本转移到工作区。
+
+git remote add orgin git https://github.com/scutlzc/learngit.git 将已有的本地仓库与远程仓库关联起来。
+git push -u origin master 将master分支推送到远程库。
+当远程库为空，加上-u参数，Git不但会把本地master分支内容推送到远程新的master分支，还会把本地master分支和远程master分支关联起来。
