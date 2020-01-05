@@ -8,6 +8,6 @@ create a new branch
 
 test 
 
-tomorrow is Satursday
+tomorrow are Satursday
 today is Sunday
 
